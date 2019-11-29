@@ -1,0 +1,150 @@
+/**Para el menu transparente**/
+body{
+  background-color:#061a27;
+}
+header{
+  margin-bottom: 30px;
+}
+.header .bg-trasp {
+  background-color: #b3490c !important;
+  *transition: 1.5s ease-out all;
+ 
+}
+.bg-fixed{
+  background-color: #487016  !important;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100px;
+  *transition: 1.5s ease-out all;
+}
+
+.logo{
+  height: 60px;
+}
+.letra-logo{
+    font-size: 30px;
+    padding-left: 5px;
+    position: relative;
+    top: 8px;
+}
+
+.navbar-nav li{
+  background-color: aliceblue;
+  margin-right: 15px;
+  width: 100px;
+  text-align: center;
+}
+.navbar-nav li:hover{
+   background-color: #1679c0;
+}
+.navbar-nav li a:hover{
+  color: white;
+}
+.dropdown-menu{
+  background-color: #1679c0;
+}
+.dropdown-menu a{
+  color: white;
+  
+}
+.dropdown-menu a:hover{
+  color:#1679c0!important;
+  
+}
+.navbar-toggler{
+ border: 3px solid black;
+}
+.navbar-toggler-icon{
+  padding: 5px;
+}
+/**Para el main**/
+.cuerpo{
+  background: white;
+  box-sizing: border-box;
+  padding: 20px;
+}
+/**Para los modulos de las carreras**/
+.h-modulo{
+    background-color: #275787ff;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.b-modulo{
+    box-sizing: border-box;
+    background-color: #8ab2daff;
+    text-align: center;
+    height: 160px;
+    padding: 5px;
+}
+
+/*para el footer*/
+footer {
+  background-color: #5151;
+  background: url(../img/footer.png) no-repeat center;
+  background-size: cover;
+  min-width: 100%;
+ box-sizing: border-box;
+ padding-top: 40px;
+ padding-bottom: 40px;
+}
+.logo-footer{
+ height: 200px;
+ border-radius: 10%;
+}
+
+footer li{
+ list-style: none;
+}
+
+@media only screen and (min-width: 768px) {
+ 
+  .navbar-nav li{
+  background-color: aliceblue;
+  margin-right: 15px;
+  width: 100%;
+  text-align:left;
+  padding: 10px;
+  }
+}
+
+
+@media only screen and (min-width: 425px) {
+ 
+  .navbar-nav li{
+ 
+  width: 100%;
+  text-align:left;
+  padding: 10px;
+  }
+ 
+
+ 
+ 
+ 
+ 
+ 
+}
+@media only screen and (min-width: 375px) {
+ 
+  .navbar-nav li{
+ 
+  width: 100%;
+  text-align:left;
+  padding: 10px;
+  }
+
+ 
+ 
+}
+@media only screen and (min-width: 320px) {
+ 
+  .navbar-nav li{
+ 
+  width: 100%;
+  text-align:left;
+  padding: 10px;
+  }
+}

@@ -1,0 +1,202 @@
+@import url(style-institucion.css);
+/**header para el index**/
+a{
+ text-decoration: none;
+}
+
+.header {
+  background: url(../img/portada_inicio.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+/**Para el menu transparente**/
+.header .bg-trasp {
+  background-color: transparent !important;
+  transition: 1.5s ease-out all;
+ 
+}
+.bg-fixed{
+  background-color: #487016  !important;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100px;
+  transition: 1.5s ease-out all;
+}
+
+.logo{
+  height: 60px;
+}
+.letra-logo{
+    font-size: 30px;
+    padding-left: 5px;
+    position: relative;
+    top: 8px;
+}
+
+.navbar-nav li{
+  background-color: aliceblue;
+  margin-right: 15px;
+  width: 100px;
+  text-align: center;
+}
+.navbar-nav li:hover{
+   background-color: #1679c0;
+}
+.navbar-nav li a:hover{
+  color: white;
+}
+.dropdown-menu{
+  background-color: #1679c0;
+}
+.dropdown-menu a{
+  color: white;
+  
+}
+.dropdown-menu a:hover{
+  color:#1679c0!important;
+  
+}
+.navbar-toggler{
+ border: 3px solid black;
+}
+.navbar-toggler-icon{
+  padding: 5px;
+}
+
+/**Para la frase**/
+.frase{
+background: -moz-linear-gradient(90deg, transparent 5%, #007BFF 69%, transparent 100%);/* FF3.6+ */
+background: -webkit-gradient(linear, 90deg, color-stop(5%, transparent), color-stop(69%, 007BFF), color-stop(100%,transparent));/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(90deg, transparent 5%, #007BFF 69%, transparent 100%);/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(90deg, transparent 5%, #007BFF 69%, transparent 100%);/* Opera 11.10+ */
+background: -ms-linear-gradient(90deg, transparent 5%, #007BFF 69%, transparent 100%);/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='transparent', GradientType='1'); /* for IE */
+background: linear-gradient(90deg, transparent 5%, #007BFF 69%, transparent 100%);/* W3C */
+ 
+ position: relative;
+    top: 70vh;
+}
+.frase h1{
+    color: white;
+	text-align: center;
+}
+
+/**Para el main**/
+main{
+ margin-bottom: 150px;
+}
+.t-es{
+ color: antiquewhite;
+}
+.img-especialidad{
+  height: 300px;
+  width: 200px;
+}
+.t-especilida h2{
+ text-align: center;
+ color:antiquewhite;
+}
+.t-especilida h2 a{
+ text-decoration: none;
+ color: antiquewhite;
+}
+.t-especilida h2 a:hover{
+ color:#deb129;
+ 
+}
+/*Para el footer*/
+footer {
+  background-color: #5151;
+  background: url(../img/footer.png) no-repeat center;
+  background-size: cover;
+  min-width: 100%;
+ box-sizing: border-box;
+ padding-top: 40px;
+ padding-bottom: 40px;
+}
+.logo-footer{
+ height: 200px;
+ border-radius: 10%;
+}
+
+footer li{
+ list-style: none;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+ 
+  .navbar-nav li{
+  background-color: aliceblue;
+  margin-right: 15px;
+  width: 100%;
+  text-align:left;
+  padding: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+ 
+  .navbar-nav li{
+  background-color: aliceblue;
+  margin-right: 15px;
+  width: 100%;
+  text-align:left;
+  padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+ .t-especilida{
+  box-sizing: border-box;
+  padding-top: 150px;
+ }
+  
+}
+@media only screen and (max-width: 575px) {
+ .t-especilida{
+  box-sizing: border-box;
+  padding-top:0px;
+ }
+  
+}
+
+
+@media only screen and (min-width: 425px) {
+ 
+  .navbar-nav li{
+ 
+  width: 100%;
+  text-align:left;
+  padding: 10px;
+  }
+ 
+
+ 
+ 
+ 
+ 
+ 
+}
+@media only screen and (min-width: 375px) {
+ 
+  .navbar-nav li{
+ 
+  width: 100%;
+  text-align:left;
+  padding: 10px;
+  }
+
+ 
+ 
+}
+@media only screen and (min-width: 320px) {
+ 
+  .navbar-nav li{
+ 
+  width: 100%;
+  text-align:left;
+  padding: 10px;
+  }
+}
